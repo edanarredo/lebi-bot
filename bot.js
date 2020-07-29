@@ -13,9 +13,9 @@ client.on('message', message => {
     }
     else if (message.content === 'send nudes') {
         const embed = new Discord.MessageEmbed()
-        .setTitle('A slick embed ;)')
+        .setTitle('Check me out here!')
         .setColor(0xff0000)
-        .setDescription('Hi, this is a slick embed!');
+        .setDescription('https://github.com/edanarredo/lebi-bot');
         message.channel.send(embed);
     }
 
